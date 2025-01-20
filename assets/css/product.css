@@ -1,0 +1,112 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
+
+body{
+    font-family: Open+Sans;
+    min-height: 100vh;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    color: #0091aa;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+
+.product{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #0091aa;
+    margin-top: 20px;
+    width: 250px;
+    height: 400px;
+    margin: 15px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    border-radius: 20px;
+    padding-top: 10px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+                0 10px 10px rgba(0,0,0,0.22);
+}
+
+
+
+.product .product-image{
+    display: block;
+    align-items: center;
+}
+
+
+
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #0091aa;
+    margin-top: 20px;
+    width: 250px;
+    height: 400px;
+    margin: 15px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    border-radius: 20px;
+    padding-top: 10px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+                0 10px 10px rgba(0,0,0,0.22);
+}
+
+.card-buttons{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 5px;
+    padding: 10px;
+    align-items: center;
+}
+
+
+.edit-btn{
+    margin: 5px;
+    padding: 10px;
+    background-color: #28720b;
+    border: 2px solid #28720b;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.edit-btn:hover{
+    background-color: #ffffff;
+    color: #28720b;
+    border: 2px solid #28720b;
+}
+
+
+.delete-btn{
+    margin: 5px;
+    padding: 10px;
+    background-color: #c00000;
+    border: 2px solid #c00000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.delete-btn:hover{
+    background-color: #ffffff;
+    color: #c00000;
+    border: 2px solid #c00000 ;
+}
